@@ -1,0 +1,519 @@
+body{
+	background-image: url("banner/bgcolor.PNG");
+}
+.Book_logo{
+	position: absolute;
+}
+div.menuBar{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	background-color: black;
+	width: 100%;
+	height: auto;
+}
+	ul.f1{
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-left: 80px;
+	opacity: 0.9;
+}
+ul.f1 li{
+float: left;
+margin-left: 20px;
+}
+ul.f1 li a{
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+ul.f1 li a.active{
+	background-color: red;
+}
+ul.f1 li a:hover:not(.active){
+	background-color: yellow;
+	color: red;
+}
+* {
+  box-sizing: border-box;
+}
+li.searchBox input[type=text] {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid yellow;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+li.searchBox button {
+  float: left;
+  width: 20%;
+  padding: 14px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+li.searchBox button:hover {
+  background: yellow;
+  color: red;
+}
+.COVID19{
+	padding-bottom: auto;
+	font-family: cursive;
+	padding-top: 60px;
+}
+.col1{
+	padding: 20px 20px;
+}
+.col{
+	padding: 25px 120px;
+}
+.middle_Cant_f1r{
+	background-color: white;
+	border: 1px ridge black;
+	border-radius: 50%;
+	border-style: hidden;
+	box-shadow: 0 0 30px rgb(190,251,241);
+	text-align: center;
+	font-family: "Lucida Calligraphy";
+	padding: 5% 5%;
+	color: green-yellow;
+}
+.Spcl_Offer{
+	border: 1px dotted	rgb(0,255,0);
+	padding: 35px 35px;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 30px #FFFF00;
+	background-image: url("Ads/background_offer.gif");
+}
+.Offer_Offer{
+	font-weight: bold;
+	font-family: Algerian;
+	font-size: 45px;
+	color: red;
+}
+.Visit{
+	font-family: "Bauhaus 93";
+	text-transform: uppercase;
+	font-size: 22px;
+	color: chocolate;
+}
+.Spcl_Offer button{
+	text-transform: uppercase;
+	color: yellow;
+	text-decoration: none;
+	display: block;
+	background-color: purple;
+	border-radius: 20%;
+	margin-left: 42%;
+}
+.Spcl_Offer button:hover {
+	background-color: yellow;
+	color: black;
+	padding: 3px 3px;
+}
+.middle_Cant_f1r2 .button1{
+	display: block;
+	position: absolute;
+	left: 30%;
+	bottom: 30%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	color: red;
+	background-color: lightblue;
+	cursor: pointer;
+	opacity: 0.1;
+}
+.middle_Cant_f1r2{
+	display: block;
+	position: relative;
+	width: 50%;
+	max-width: 400px;
+}
+.middle_Cant_f1r2 #Book1{
+	width: 100%;
+	height: auto;
+}
+.middle_Cant_f1r2:hover #Book1{
+	opacity: 0.3;
+}
+.middle_Cant_f1r2:hover .button1{
+	opacity: 1;
+}
+.checked{
+	color: red;
+	size: 40px;
+}
+.price_book1{
+	position: static;
+	color: white;
+	margin-top: 40%;
+	font-weight: bold;
+	font-size: 14px;
+}
+.middle_Cant_f1r5{
+	border: 1px ridge black;
+	background-image: url("Ads/natural.webp");
+	background-position: center;
+	border-style: none;
+	border-radius: 20%;
+}
+.updates{
+	font-weight: bold;
+	color: yellow;
+	font-family: "Goudy Stout";
+}
+.Book4{
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+}
+.col3{
+	padding: 20px 35px;
+}
+.col3 ul{
+	background-color: white;
+	border: 1px ridge green;
+	border-radius: 10%;
+	box-shadow: 0 0 30px #0000ff;
+	padding-bottom: 50px;
+}
+.col3 ul li{
+	padding: 15px;
+	list-style: none;
+}
+.Books_Status{
+	margin-top: 100px;
+	text-align: center;
+	color: yellow;
+	font-size: 22px;
+	font-family: cursive;
+}
+.BookCat{
+	padding: 50px 30px;
+	border: 3px double blue;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+}
+#heading_BookCat{
+	font-family: cursive;
+	font-size: 35px;
+	color: indigo;
+}
+.Book11{
+	border-radius: 50%;
+}
+.Book12{
+	border-radius: 50%;
+}
+.Book13{
+	border-radius: 50%;
+}
+.Book14{
+	border-radius: 50%;
+}
+.Book15{
+	border-radius: 50%;
+}
+.Book16{
+	border-radius: 50%;
+}
+.Book17{
+	border-radius: 50%;
+}
+.Book18{
+	border-radius: 50%;
+}
+.footer_contant{
+	display: block;
+	background-color: rgb(35,47,62);
+	color: white;
+}
+.footer_contant ul li{
+	list-style-type: none;
+	font-family: cursive;
+}
+p.footer_head1{
+	font-size: 20px;
+	font-weight: bold;
+}
+p.footer_head2{
+	font-size: 20px;
+	font-weight: bold;
+}
+p.footer_head3{
+	font-size: 20px;
+	font-weight: bold;
+}
+p.footer_head4{
+	font-size: 20px;
+	font-weight: bold;
+}
+a.footer_contant_f1r{
+	color: white;
+	font-size: 16px;
+}
+a.footer_contant_f1r:hover{
+	color: blue;
+}
+.footer_contant_End{
+	background-color: rgb(19,26,34);
+}
+ul.footer_contant_f1r2 li{
+	list-style-type: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 10px 10px;
+}
+a.footer_contant_f1r2_bottom{
+	font-family: cursive;
+	color: white;
+	text-decoration: none;
+}
+a.footer_contant_f1r2_bottom:hover{
+	color: blue;
+}
+div.Footer_Icon{
+	padding: 10px 10px;
+}
+table.table1{
+	margin-top: 80px;
+	border: 2px double red;
+}
+img.bookpic1{
+	width: 210px;
+	height: 228px;
+	border-radius: 3%;
+}
+img.bookpic2{
+	width: 210px;
+	height: 275px;
+	border-radius: 3%;
+}
+img.bookpic3{
+	width: 225px;
+	height: 275px;
+	border-radius: 3%;
+}
+img.bookpic4{
+	width: 225px;
+	height: 274px;
+	border-radius: 3%;
+}
+img.bookpic5{
+	border-radius: 3%;
+}
+img.bookpic6{
+	border-radius: 3%;
+}
+.footer_contant_End_notification{
+	margin-top: 0%;
+}
+.footer_contant_End_notification{
+	background-color: rgb(19,26,34);
+}
+.notifications_tab_banner{
+	margin-top: 23%;
+}
+.notification_container{
+	margin-top: 5%;
+}
+.col4{
+	padding: 20px 20px;
+}
+.col5{
+	width: 70%;
+}
+.top_notification{
+	border-radius: 10%;notifi
+}
+.bottom_notification{
+	position: absolute;
+	bottom: auto;
+	top: 86px;
+	opacity: 0.1;
+	border-radius: 10%;
+}
+.top_notification:hover {
+	opacity: 0.1;
+}
+.bottom_notification:hover {
+	opacity: 1;
+}
+.middle_Cant_f1r_notification{
+	text-align: center;
+	padding: 120px 30px;
+	color: yellow;
+	font-family: cursive;
+	font-size: 30px;
+}
+.col6{
+	padding: 20px 20px;
+}
+.container1{
+		width: 200px;
+		border: 2px solid red;
+		float: left; 
+		margin-top: 20px;
+		margin-left: 5px;
+	}
+	.footer_contant_End_download{
+	background-color: rgb(19,26,34);
+}
+.banner_f1r{
+	margin-top: 80px;
+}
+.col1_down_banner1{
+	border-radius: 15%;
+	box-shadow: white;
+}
+.col2_down_banner2{
+	border-radius: 15%;
+	box-shadow: white;
+}
+.col1_down{
+	box-shadow: 0 0 30px indigo;
+}
+.col2_down{
+	box-shadow: 0 0 30px chocolate;
+}
+.col3_down{
+	box-shadow: 0 0 30px blue;
+}
+.col4_down{
+	box-shadow: 0 0 30px aqua;
+}
+.col1_down_banner3{
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.col2_down_banner4{
+	margin-left: 0px;
+	margin-right: 20px;
+}
+.footer_contant_End_About{
+	background-color: rgb(19,26,34);
+}
+.Heading1, .Heading2{
+	font-family: cursive;
+	color: rgb(255,91,0);
+	font-size: 22px;
+	padding-right: 100px;
+	padding-top: 80px;
+}
+.para1{
+	font-family: "Time New Roman";
+	color: White;
+	padding-left: 200px;
+	margin-left: 20px;
+	text-align: justify;
+}
+.para2{
+	font-family: "Imprint MT Shadow";
+	color: #Ochre;
+	padding-left: 200px;
+	padding-top: 10px;
+	margin-left: 20px;
+	text-align: justify;
+	font-size: 18px;
+}
+.para3{
+	font-family: "Imprint MT Shadow";
+	color: #Ochre;
+	padding-left: 200px;
+	padding-top: 40px;
+	margin-left: 20px;
+	text-align: justify;
+	font-size: 18px;
+	color: #A7FC00;
+}
+.para4{
+	font-family: "Imprint MT Shadow";
+	color: #00FFFF;
+	padding-left: 200px;
+	padding-top: 40px;
+	margin-left: 20px;
+	text-align: justify;
+	font-size: 18px;
+}
+img.gif2{
+	width: 180px;
+	height: 150px;
+	border-radius: 90%;
+}
+.footer_contant_End_Contact{
+	background-color: rgb(19,26,34);
+	margin-top: 30%;
+}
+.services_footer{
+	text-align: center;
+	background-color: yellow;
+}
+#head1, #head2, #head3, #head4{
+	font-family: cursive;
+	font-weight: bold;
+	color: chocolate;
+	font-size: 18px;
+}
+#head1{
+	margin-top: 15px;
+}
+#head3{
+	margin-top: 15px;
+}
+#head4{
+	margin-top: 15px;
+}
+#head5, #head6, #head7, #head8{
+	font-family: cursive;
+	font-size: 15px;
+	color: red;
+}
+.Contact_footer{
+	margin-top: 50px;
+	font-family: "Time New Roman";
+	font-size: 18px;
+	font-weight: bold;
+}
+.info{
+	background-color: yellow;
+	margin-top: 150px;
+}
+.acutal_location{
+	text-align: center;
+	background-color: orchid;
+}
+#location_contact,
+#location_contact1,
+#location_contact2{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive;
+}
+#location_contact{
+	margin-top: 20px;
+}
+#location_contact1{
+	margin-top: 20px;
+}
+.head1_img1{
+	margin-left: 280px;
+}
+.head2_img2{
+
+}
+.head3_img3{
+	margin-right: 280px;
+}
